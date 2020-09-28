@@ -1,0 +1,13 @@
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.csprojAssemblyReference.cache
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.AssemblyInfoInputs.cache
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.AssemblyInfo.cs
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.csproj.CoreCompileInputs.cache
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.exe
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.deps.json
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.runtimeconfig.json
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.runtimeconfig.dev.json
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.dll
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.pdb
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.dll
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.pdb
+C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.genruntimeconfig.cache
