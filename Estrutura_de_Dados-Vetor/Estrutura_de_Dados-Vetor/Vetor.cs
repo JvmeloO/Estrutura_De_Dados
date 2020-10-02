@@ -24,7 +24,7 @@ namespace Estrutura_de_Dados_Vetor
             return qntElementos;
         }
 
-        public T Recuperar(int pos)
+        public T Recupera(int pos)
         {
             if ((pos < 0 && pos > Tamanho()) || (!ExisteDado(pos)))
             {
@@ -49,7 +49,7 @@ namespace Estrutura_de_Dados_Vetor
         }
 
         //Método que adiciona no vetor
-        public void AdicionarInicio(T elemento)
+        public void AdicionaInicio(T elemento)
         {
             if (Tamanho() == vetor.Length)
             {
@@ -61,21 +61,18 @@ namespace Estrutura_de_Dados_Vetor
             vetor[0] = elemento;
 
             Iterador<T> it = new Iterador<T>(vetor);
-            int i = 1;
-            T elementoAnterior = vetor[i];
+            int i = 2;
+            T elementoAnterior = vetor[1];
+            vetor[1] = elementoInicio;
             while (it.HasNext())
             { //percorrendo o vetor usando iterador
                 if (it.Next() != null)
                 {              
-                    if (i != 1)
+                    if (i < (vetor.Length))
                     {
                         T elementoAtual = vetor[i];
                         vetor[i] = elementoAnterior;
                         elementoAnterior = elementoAtual;
-                    }
-                    else
-                    {                        
-                        vetor[i] = elementoInicio;
                     }
                 }
                 i++;
@@ -83,7 +80,7 @@ namespace Estrutura_de_Dados_Vetor
             qntElementos++;
         }
 
-        public void AdicionarFim(T elemento)
+        public void AdicionaFim(T elemento)
         {
             if (Tamanho() == vetor.Length)
             {
@@ -95,7 +92,7 @@ namespace Estrutura_de_Dados_Vetor
         }
 
         //Método que remove do vetor em uma determinada posição
-        public void Remover(int posicao)
+        public void Remove(int posicao)
         {
             if ((posicao < 0 && posicao > Tamanho()) || (!ExisteDado(posicao)))
             {
@@ -121,7 +118,7 @@ namespace Estrutura_de_Dados_Vetor
         }
 
         //Método que remove do início do vetor
-        public void RemoverInicio()
+        public void RemoveInicio()
         {
             Iterador<T> it = new Iterador<T>(vetor);
             int i = 0;
@@ -129,15 +126,18 @@ namespace Estrutura_de_Dados_Vetor
             { //percorrendo o vetor usando iterador
                 if (it.Next() != null)
                 {
-                    vetor[i] = vetor[i + 1];
-                }
-                i++;
+                    if (i < (vetor.Length - 1))
+                    {
+                        vetor[i] = vetor[i + 1];
+                    }
+                    i++;
+                }                
             }
             qntElementos--;
         }
 
         //Método que remove do fim do vetor
-        public void RemoverFim()
+        public void RemoveFim()
         {
             T[] vetorNovo = new T[qntElementos];
             Iterador<T> it = new Iterador<T>(vetor);
@@ -146,13 +146,15 @@ namespace Estrutura_de_Dados_Vetor
             { //percorrendo o vetor usando iterador
                 if (it.Next() != null)
                 {
-                    if (i != qntElementos)
+                    if (i < (vetor.Length-2))
                     {
                         vetorNovo[i] = vetor[i];
                     }
                 }
                 i++;
             }
+            vetor = new T[qntElementos];
+            vetor = vetorNovo;
             qntElementos--;
         }
 

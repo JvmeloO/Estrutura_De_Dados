@@ -11,3 +11,16 @@ C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bi
 C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.dll
 C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.pdb
 C:\Users\jvmel\source\repos\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.genruntimeconfig.cache
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.exe
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.deps.json
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.runtimeconfig.json
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.runtimeconfig.dev.json
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.dll
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\bin\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.pdb
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.csprojAssemblyReference.cache
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.AssemblyInfoInputs.cache
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.AssemblyInfo.cs
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.csproj.CoreCompileInputs.cache
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.dll
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.pdb
+D:\Git\Estrutura_De_Dados\Estrutura_de_Dados-Vetor\Estrutura_de_Dados-Vetor\obj\Debug\netcoreapp3.1\Estrutura_de_Dados-Vetor.genruntimeconfig.cache

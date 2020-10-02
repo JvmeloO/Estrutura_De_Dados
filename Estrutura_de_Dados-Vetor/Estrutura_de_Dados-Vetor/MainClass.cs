@@ -2,7 +2,7 @@
 
 namespace Estrutura_de_Dados_Vetor
 {
-    class ClassMain
+    class MainClass
     {
         static void Main(string[] args)
         {
@@ -10,38 +10,46 @@ namespace Estrutura_de_Dados_Vetor
             var aluno = new Aluno()
             {
                 Nome = "Rodrigo",
-                Ano = 9,
+                Ano = 1,
                 Idade = 15
             };
             var aluno2 = new Aluno()
             {
                 Nome = "Joao",
-                Ano = 9,
+                Ano = 2,
                 Idade = 15
             };
             var aluno3 = new Aluno()
             {
                 Nome = "Carla",
-                Ano = 8,
+                Ano = 3,
                 Idade = 14
             };
             var aluno4 = new Aluno()
             {
                 Nome = "Alan",
-                Ano = 8,
+                Ano = 4,
                 Idade = 14
             };
-            vetor.AdicionarFim(aluno);
-            vetor.AdicionarFim(aluno2);
-            vetor.AdicionarInicio(aluno3);
-            vetor.AdicionarInicio(aluno4);
-            vetor.AdicionarFim(aluno);
-            vetor.AdicionarFim(aluno);
-            for (int i = 0; i < 6; i++)
+            vetor.AdicionaFim(aluno);
+            vetor.AdicionaFim(aluno2);
+            vetor.AdicionaFim(aluno3);
+            vetor.AdicionaFim(aluno4);
+            vetor.AdicionaInicio(aluno4);
+            vetor.AdicionaInicio(aluno3);
+            vetor.AdicionaInicio(aluno4);
+            vetor.AdicionaFim(aluno);
+            vetor.AdicionaFim(aluno3);
+            vetor.RemoveFim();
+            vetor.RemoveInicio();
+            Console.WriteLine(vetor.Vazio());
+            //vetor.Limpar();
+            //Console.WriteLine(vetor.Vazio());
+            for (int i = 0; i < 7; i++)
             {
                 Console.WriteLine("\n");
                 Console.WriteLine("Aluno "+i);
-                var item = vetor.Recuperar(i);
+                var item = vetor.Recupera(i);
                 Console.WriteLine(item.Nome);
                 Console.WriteLine(item.Idade);
                 Console.WriteLine(item.Ano);
