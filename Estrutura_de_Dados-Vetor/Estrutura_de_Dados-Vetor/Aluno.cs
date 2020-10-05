@@ -6,10 +6,34 @@ namespace Estrutura_de_Dados_Vetor
 {
     public class Aluno
     {
-        public string Nome { get; set; }
+        private string Nome { get; set; }
 
-        public int Idade { get; set; }
+        private int Idade { get; set; }
 
-        public int Ano { get; set; }
+        private int Ano { get; set; }
+
+        public Aluno() { }
+
+        public Aluno(string nome, int idade, int ano) 
+        {
+            Nome = nome;
+            Idade = idade;
+            Ano = ano;
+        }
+
+        public string GetNome()
+        {
+            return Nome;
+        }
+
+        public int GetIdade()
+        {
+            return Idade;
+        }
+
+        public int GetAno() 
+        {
+            return Ano;
+        }
     }
 }

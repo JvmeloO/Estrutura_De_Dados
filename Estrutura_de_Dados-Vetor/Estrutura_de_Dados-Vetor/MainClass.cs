@@ -6,53 +6,33 @@ namespace Estrutura_de_Dados_Vetor
     {
         static void Main(string[] args)
         {
-            var vetor = new Vetor<Aluno>(5);
-            var aluno = new Aluno()
-            {
-                Nome = "Rodrigo",
-                Ano = 1,
-                Idade = 15
-            };
-            var aluno2 = new Aluno()
-            {
-                Nome = "Joao",
-                Ano = 2,
-                Idade = 15
-            };
-            var aluno3 = new Aluno()
-            {
-                Nome = "Carla",
-                Ano = 3,
-                Idade = 14
-            };
-            var aluno4 = new Aluno()
-            {
-                Nome = "Alan",
-                Ano = 4,
-                Idade = 14
-            };
-            vetor.AdicionaFim(aluno);
-            vetor.AdicionaFim(aluno2);
-            vetor.AdicionaFim(aluno3);
-            vetor.AdicionaFim(aluno4);
-            vetor.AdicionaInicio(aluno4);
-            vetor.AdicionaInicio(aluno3);
-            vetor.AdicionaInicio(aluno4);
-            vetor.AdicionaFim(aluno);
-            vetor.AdicionaFim(aluno3);
-            vetor.RemoveFim();
-            vetor.RemoveInicio();
-            Console.WriteLine(vetor.Vazio());
+            var listaSimples = new Vetor<Aluno>(5);
+            var aluno1 = new Aluno("Rodrigo", 1, 15);
+            var aluno2 = new Aluno("Joao", 2, 15);
+            var aluno3 = new Aluno("Carla", 3, 14);
+            var aluno4 = new Aluno("Alan", 4, 14);
+            listaSimples.AdicionaFim(aluno1);
+            listaSimples.AdicionaFim(aluno2);
+            listaSimples.AdicionaFim(aluno3);
+            listaSimples.AdicionaFim(aluno4);
+            listaSimples.AdicionaInicio(aluno4);
+            listaSimples.AdicionaInicio(aluno3);
+            listaSimples.AdicionaInicio(aluno4);
+            listaSimples.AdicionaFim(aluno1);
+            listaSimples.AdicionaFim(aluno3);
+            listaSimples.RemoveFim();
+            listaSimples.RemoveInicio();
+            Console.WriteLine(listaSimples.Vazio());
             //vetor.Limpar();
             //Console.WriteLine(vetor.Vazio());
             for (int i = 0; i < 7; i++)
             {
                 Console.WriteLine("\n");
                 Console.WriteLine("Aluno "+i);
-                var item = vetor.Recupera(i);
-                Console.WriteLine(item.Nome);
-                Console.WriteLine(item.Idade);
-                Console.WriteLine(item.Ano);
+                var aluno = listaSimples.Recupera(i);
+                Console.WriteLine(aluno.GetNome());
+                Console.WriteLine(aluno.GetIdade());
+                Console.WriteLine(aluno.GetAno());
             }
         }
     }
