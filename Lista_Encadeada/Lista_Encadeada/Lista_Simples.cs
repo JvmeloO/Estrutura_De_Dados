@@ -101,18 +101,21 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
-                Iterador<T> it = new Iterador<T>(Fim);
-                while (it.HasNext())
-                {
-                    Celula atual = it.GetAtual();
-                    it.Next();
-                    if (it.GetAtual() == null)
-                    {
-                        atual.SetProximo(novaF);
-                    }
-                }
                 nova.SetProximo(Inicio);
                 Inicio = nova;
+                Celula novoFim = new Celula(Fim.GetProximo(), Fim.GetElemento());
+                Iterador<T> it = new Iterador<T>(novoFim);
+                int i = 0;
+                while (it.HasNext())
+                {
+                    if (i == Tamanho() - 1)
+                    {
+                        it.GetAtual().SetProximo(novaF);
+                        Fim = novoFim;
+                    }
+                    it.Next();
+                    i++;
+                }
                 TamanhoLista++;
             }
         }
@@ -128,18 +131,21 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
-                Iterador<T> it = new Iterador<T>(Inicio);
-                while (it.HasNext())
-                {
-                    Celula atual = it.GetAtual();
-                    it.Next();
-                    if (it.GetAtual() == null)
-                    {
-                        atual.SetProximo(novaI);
-                    }
-                }
-                nova.SetProximo(Fim);                
+                nova.SetProximo(Fim);
                 Fim = nova;
+                Celula novoInicio = new Celula(Inicio.GetProximo(),Inicio.GetElemento());
+                Iterador<T> it = new Iterador<T>(novoInicio);
+                int i = 0;
+                while (it.HasNext())
+                {                    
+                    if (i == Tamanho()-1)
+                    {
+                        it.GetAtual().SetProximo(novaI);
+                        Inicio = novoInicio;
+                    }
+                    it.Next();
+                    i++;
+                }                
                 TamanhoLista++;
             }
         }
@@ -153,22 +159,18 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
-                Celula nova = new Celula();
                 Iterador<T> it = new Iterador<T>(Inicio);
                 int i = 0;
                 while (it.HasNext())
                 {
-                    if (i > posicao)
+                    if (i == posicao-1)
                     {
-                        it.Next();
-                        i++;
+                        it.GetAtual().SetProximo();
                     }
-                    else
-                    {
-                        nova = nova.GetProximo();
-                        nova.SetElemento(nova);
-                    }
+                    it.Next();
+                    i++;
                 }
+                TamanhoLista--;
             }
         }
 
