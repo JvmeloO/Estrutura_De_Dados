@@ -75,17 +75,19 @@ namespace Estrutura_de_Dados_Vetor
                 int i = 0;
                 while (it.HasNext())
                 {
-                    if (i != posicao)
+                    if (i != posicao-1)
                     {
                         it.Next();
                         i++;
                     }
                     else
                     {
-                        Celula atual = it.GetAtual();
-                        atual.SetProximo(nova);
+                        nova.SetProximo(it.GetAtual().GetProximo());
+                        it.GetAtual().SetProximo(nova);
+                        i++;
                     }
                 }
+                TamanhoLista++;
             }
         }
 
@@ -93,7 +95,6 @@ namespace Estrutura_de_Dados_Vetor
         public void AdicionaInicio(T elemento)
         {
             Celula nova = new Celula(elemento);
-            Celula novaF = new Celula(elemento);
             if (TamanhoLista == 0)
             {
                 Inicio = Fim = nova;
@@ -103,19 +104,6 @@ namespace Estrutura_de_Dados_Vetor
             {
                 nova.SetProximo(Inicio);
                 Inicio = nova;
-                Celula novoFim = new Celula(Fim.GetProximo(), Fim.GetElemento());
-                Iterador<T> it = new Iterador<T>(novoFim);
-                int i = 0;
-                while (it.HasNext())
-                {
-                    if (i == Tamanho() - 1)
-                    {
-                        it.GetAtual().SetProximo(novaF);
-                        Fim = novoFim;
-                    }
-                    it.Next();
-                    i++;
-                }
                 TamanhoLista++;
             }
         }
@@ -123,7 +111,6 @@ namespace Estrutura_de_Dados_Vetor
         public void AdicionaFim(T elemento)
         {
             Celula nova = new Celula(elemento);
-            Celula novaI = new Celula(elemento);
             if (TamanhoLista == 0)
             {
                 Inicio = Fim = nova;
@@ -133,19 +120,6 @@ namespace Estrutura_de_Dados_Vetor
             {
                 nova.SetProximo(Fim);
                 Fim = nova;
-                Celula novoInicio = new Celula(Inicio.GetProximo(),Inicio.GetElemento());
-                Iterador<T> it = new Iterador<T>(novoInicio);
-                int i = 0;
-                while (it.HasNext())
-                {                    
-                    if (i == Tamanho()-1)
-                    {
-                        it.GetAtual().SetProximo(novaI);
-                        Inicio = novoInicio;
-                    }
-                    it.Next();
-                    i++;
-                }                
                 TamanhoLista++;
             }
         }
@@ -159,16 +133,24 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
+                Celula novoInicio = new Celula(Inicio.GetProximo(), Inicio.GetElemento());
                 Iterador<T> it = new Iterador<T>(Inicio);
+                Iterador<T> itNovoInicio = new Iterador<T>(novoInicio);
                 int i = 0;
                 while (it.HasNext())
                 {
-                    if (i == posicao-1)
+                    if (i != posicao-1)
                     {
-                        it.GetAtual().SetProximo();
+                        itNovoInicio.Next();
+                        it.Next();
+                        i++;
                     }
-                    it.Next();
-                    i++;
+                    else
+                    {
+                        itNovoInicio.Next();
+                        it.GetAtual().SetProximo(itNovoInicio.GetAtual().GetProximo());
+                        i++;
+                    }
                 }
                 TamanhoLista--;
             }
