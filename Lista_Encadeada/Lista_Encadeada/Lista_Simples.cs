@@ -118,8 +118,16 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
-                nova.SetProximo(Fim);
-                Fim = nova;
+                Iterador<T> it = new Iterador<T>(Inicio);
+                while (it.HasNext())
+                {
+                    var guardarCelula = it.GetAtual();
+                    it.Next();
+                    if (it.GetAtual() == null)
+                    {
+                        guardarCelula.SetProximo(nova);
+                    }
+                }
                 TamanhoLista++;
             }
         }
@@ -189,7 +197,17 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
-                Fim = Fim.GetProximo();
+                Celula nova = new Celula();
+                Iterador<T> it = new Iterador<T>(Inicio);
+                while (it.HasNext())
+                {
+                    var guardarCelula = it.GetAtual();
+                    it.Next();
+                    if (it.GetAtual() == null)
+                    {
+                        guardarCelula.SetProximo(nova);
+                    }
+                }
                 TamanhoLista--;
             }
         }
