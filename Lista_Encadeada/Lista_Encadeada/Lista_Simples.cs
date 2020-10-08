@@ -189,7 +189,9 @@ namespace Estrutura_de_Dados_Vetor
             }
             else
             {
+                Celula penultimaPos = new Celula(Recupera(TamanhoLista-2));
                 Fim = Fim.GetProximo();
+                Fim = penultimaPos;
                 TamanhoLista--;
             }
         }

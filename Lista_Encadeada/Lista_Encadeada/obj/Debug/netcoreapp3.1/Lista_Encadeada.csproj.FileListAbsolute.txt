@@ -4,7 +4,6 @@ D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\bin\Debug\netcoreapp3.
 D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\bin\Debug\netcoreapp3.1\Lista_Encadeada.runtimeconfig.dev.json
 D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\bin\Debug\netcoreapp3.1\Lista_Encadeada.dll
 D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\bin\Debug\netcoreapp3.1\Lista_Encadeada.pdb
-D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\obj\Debug\netcoreapp3.1\Lista_Encadeada.csprojAssemblyReference.cache
 D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\obj\Debug\netcoreapp3.1\Lista_Encadeada.AssemblyInfoInputs.cache
 D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\obj\Debug\netcoreapp3.1\Lista_Encadeada.AssemblyInfo.cs
 D:\Git\Estrutura_De_Dados\Lista_Encadeada\Lista_Encadeada\obj\Debug\netcoreapp3.1\Lista_Encadeada.csproj.CoreCompileInputs.cache
