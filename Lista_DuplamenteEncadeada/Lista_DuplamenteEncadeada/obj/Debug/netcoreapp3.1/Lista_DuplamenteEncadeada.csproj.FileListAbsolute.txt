@@ -1,0 +1,13 @@
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\bin\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.exe
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\bin\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.deps.json
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\bin\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.runtimeconfig.json
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\bin\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.runtimeconfig.dev.json
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\bin\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.dll
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\bin\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.pdb
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.csprojAssemblyReference.cache
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.AssemblyInfoInputs.cache
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.AssemblyInfo.cs
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.csproj.CoreCompileInputs.cache
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.dll
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.pdb
+D:\Git\Estrutura_De_Dados\Lista_DuplamenteEncadeada\Lista_DuplamenteEncadeada\obj\Debug\netcoreapp3.1\Lista_DuplamenteEncadeada.genruntimeconfig.cache
