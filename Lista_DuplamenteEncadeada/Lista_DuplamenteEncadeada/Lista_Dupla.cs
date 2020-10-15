@@ -2,6 +2,7 @@
 using Microsoft.VisualBasic.CompilerServices;
 using System;
 using System.Collections.Generic;
+using System.Reflection.Emit;
 using System.Text;
 
 namespace Estrutura_de_Dados_Vetor
@@ -64,9 +65,14 @@ namespace Estrutura_de_Dados_Vetor
 
         public void Adiciona(int posicao, T elemento)
         {
-            if (posicao < 0 || posicao >= Tamanho())
+            if (posicao <= 0 || posicao > Tamanho())
             {
                 throw new Exception("A Posição " + posicao + " é Inválida!");
+            }
+            else if (posicao == Tamanho())
+            {
+                AdicionaFim(elemento);
+                TamanhoLista++;
             }
             else
             {
@@ -75,7 +81,7 @@ namespace Estrutura_de_Dados_Vetor
                 int i = 0;
                 while (it.HasNext())
                 {
-                    if (i != posicao-1)
+                    if (i != posicao - 1)
                     {
                         it.Next();
                         i++;
@@ -83,7 +89,7 @@ namespace Estrutura_de_Dados_Vetor
                     else
                     {
                         nova.SetAnterior(it.GetAtual());
-                        nova.SetProximo(it.GetAtual().GetProximo());                        
+                        nova.SetProximo(it.GetAtual().GetProximo());
                         it.GetAtual().SetProximo(nova);
                         it.GetAtual().GetProximo().GetProximo().SetAnterior(it.GetAtual().GetProximo());
                         i++;
@@ -132,9 +138,14 @@ namespace Estrutura_de_Dados_Vetor
         //Método que remove da lista em uma determinada posição
         public void Remove(int posicao)
         {
-            if (posicao < 0 || posicao >= Tamanho())
+            if (posicao <= 0 || posicao > Tamanho())
             {
                 throw new Exception("A Posição " + posicao + " é Inválida!");
+            }
+            else if (posicao == Tamanho())
+            {
+                RemoveFim();
+                TamanhoLista--;
             }
             else
             {
@@ -142,7 +153,7 @@ namespace Estrutura_de_Dados_Vetor
                 int i = 0;
                 while (it.HasNext())
                 {
-                    if (i != posicao-1)
+                    if (i != posicao - 1)
                     {
                         it.Next();
                         i++;
@@ -202,6 +213,6 @@ namespace Estrutura_de_Dados_Vetor
             Inicio = new CelulaDupla();
             Fim = new CelulaDupla();
             TamanhoLista = 0;
-        }
+        }        
     }
 }
