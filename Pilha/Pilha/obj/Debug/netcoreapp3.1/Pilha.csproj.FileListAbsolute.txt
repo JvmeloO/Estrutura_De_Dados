@@ -1,0 +1,13 @@
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\bin\Debug\netcoreapp3.1\Pilha.exe
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\bin\Debug\netcoreapp3.1\Pilha.deps.json
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\bin\Debug\netcoreapp3.1\Pilha.runtimeconfig.json
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\bin\Debug\netcoreapp3.1\Pilha.runtimeconfig.dev.json
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\bin\Debug\netcoreapp3.1\Pilha.dll
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\bin\Debug\netcoreapp3.1\Pilha.pdb
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.csprojAssemblyReference.cache
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.AssemblyInfoInputs.cache
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.AssemblyInfo.cs
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.csproj.CoreCompileInputs.cache
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.dll
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.pdb
+D:\Git\Estrutura_De_Dados\Pilha\Pilha\obj\Debug\netcoreapp3.1\Pilha.genruntimeconfig.cache
