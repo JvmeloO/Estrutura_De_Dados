@@ -1,0 +1,13 @@
+D:\Git\Estrutura_De_Dados\Fila\Fila\bin\Debug\netcoreapp3.1\Fila.exe
+D:\Git\Estrutura_De_Dados\Fila\Fila\bin\Debug\netcoreapp3.1\Fila.deps.json
+D:\Git\Estrutura_De_Dados\Fila\Fila\bin\Debug\netcoreapp3.1\Fila.runtimeconfig.json
+D:\Git\Estrutura_De_Dados\Fila\Fila\bin\Debug\netcoreapp3.1\Fila.runtimeconfig.dev.json
+D:\Git\Estrutura_De_Dados\Fila\Fila\bin\Debug\netcoreapp3.1\Fila.dll
+D:\Git\Estrutura_De_Dados\Fila\Fila\bin\Debug\netcoreapp3.1\Fila.pdb
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.csprojAssemblyReference.cache
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.AssemblyInfoInputs.cache
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.AssemblyInfo.cs
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.csproj.CoreCompileInputs.cache
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.dll
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.pdb
+D:\Git\Estrutura_De_Dados\Fila\Fila\obj\Debug\netcoreapp3.1\Fila.genruntimeconfig.cache
